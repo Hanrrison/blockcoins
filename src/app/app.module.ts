@@ -6,11 +6,16 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './component/header/header.component';
 import {MenubarModule} from 'primeng/menubar';
 import {InputTextModule} from 'primeng/inputtext';
+import { CoinsComponent } from './component/coins/coins.component';
+import { FooterComponent } from './component/footer/footer.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    CoinsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
