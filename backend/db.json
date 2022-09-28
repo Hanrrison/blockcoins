@@ -1,0 +1,19 @@
+{
+  "coins": [
+    {
+      "id": 1,
+      "name": "BTC",
+      "price": 200
+    },
+    {
+      "id": 2,
+      "name": "ETH",
+      "price": 100
+    },
+    {
+      "id": 3,
+      "name": "DOT",
+      "price": 351
+    }
+  ]
+}

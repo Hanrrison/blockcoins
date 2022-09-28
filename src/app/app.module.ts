@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -8,7 +9,7 @@ import {MenubarModule} from 'primeng/menubar';
 import {InputTextModule} from 'primeng/inputtext';
 import { CoinsComponent } from './component/coins/coins.component';
 import { FooterComponent } from './component/footer/footer.component';
-
+import {TableModule} from 'primeng/table';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,9 @@ import { FooterComponent } from './component/footer/footer.component';
     BrowserModule,
     AppRoutingModule,
     MenubarModule,
-    InputTextModule
+    InputTextModule,
+    HttpClientModule,
+    TableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
